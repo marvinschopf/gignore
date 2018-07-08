@@ -1,6 +1,6 @@
 {
   "name": "newignore",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Create gitignore files from templates via the command line.",
   "main": "src/index.js",
   "repository": "https://github.com/MagicMarvMan/gignore.git",
