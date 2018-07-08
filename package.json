@@ -1,5 +1,5 @@
 {
-  "name": "gignore",
+  "name": "newignore",
   "version": "1.0.0",
   "description": "Create gitignore files from templates via the command line.",
   "main": "src/index.js",
