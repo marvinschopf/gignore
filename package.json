@@ -1,0 +1,19 @@
+{
+  "name": "gignore",
+  "version": "1.0.0",
+  "description": "Create gitignore files from templates via the command line.",
+  "main": "src/index.js",
+  "repository": "https://github.com/MagicMarvMan/gignore.git",
+  "author": "MagicMarvMan <24806960+MagicMarvMan@users.noreply.github.com>",
+  "license": "AGPL-3.0-or-later",
+  "private": false,
+  "dependencies": {
+    "chalk": "^2.4.1"
+  },
+  "bin": {
+    "gignore": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  }
+}
