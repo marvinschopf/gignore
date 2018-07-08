@@ -42,6 +42,10 @@ let template_content = '';
 let error = false;
 https.get('https://raw.githubusercontent.com/github/gitignore/master/' + template + '.gitignore', (resp) => {
   let data = '';
+  if(resp.statusCode == 404) {
+    console.log(chalk`{bold.red Could not find gitignore template.}`);
+    process.exit(1);
+  }
 
   resp.on('data', (chunk) => {
     data += chunk;
